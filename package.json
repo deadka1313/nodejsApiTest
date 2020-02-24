@@ -2,8 +2,10 @@
   "name": "nodejs-server",
   "version": "1.0.0",
   "description": "\"# nodejsApiTest\"",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
+    "start": "tsc --watch",
+    "built:watch": "nodemon ./bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

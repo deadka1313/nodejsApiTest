@@ -3,3 +3,9 @@
 
 # Dependencies
 /node_modules/
+
+# Compilation files
+bin/
+
+# Database
+db/
